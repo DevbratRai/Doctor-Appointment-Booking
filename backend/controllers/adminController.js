@@ -31,7 +31,7 @@ const addDoctor = async (req, res) => {
       !fees ||
       !address
     ) {
-      return res.json({ success: false, message: "Missing Details" });
+      return res.json({ success: false, message: "Missing Details." });
     }
 
     //validating email format
